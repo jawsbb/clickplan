@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Empêcher le zoom du navigateur */
+.prevent-zoom {
+  touch-action: none;
+  -ms-content-zooming: none;
+  -ms-touch-action: none;
+}
+
+/* Appliquer à l'élément body pour désactiver globalement */
+body {
+  overscroll-behavior: none;
+}
